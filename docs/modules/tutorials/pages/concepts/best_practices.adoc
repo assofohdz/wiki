@@ -179,7 +179,7 @@ Wouldn't it be better if behaviours were a separate system, and attributes were 
 ====
 
 
-You write Java classes named `Controls` to implement your Game Entities, and define an Entity's visuals, attributes, and behaviours. In jME, `Spatial`s (`Nodes` or `Geometry`s) are the visual representation of the game entity in the scene graph.
+You write Java classes named `Controls` to implement your Game Entities, and define an Entity's visuals, attributes, and behaviours. In jME, `Spatial`s (`Node`s or `Geometry`s) are the visual representation of the game entity in the scene graph.
 
 *  Game entities have *attributes* – All Entities are neutral _things_, only their attributes define what an entity actually _is_ (a person or a brick). In jME, we call these class fields of Spatials "user data". +
 Example: Players have *class fields* for `id, health, coins, inventory, equipment, profession`.
